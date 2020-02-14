@@ -3,6 +3,7 @@ package com.github.phisgr.example
 import com.github.phisgr.example.greet.{ChatMessage, GreetServiceGrpc, HelloWorld, RegisterRequest}
 import com.github.phisgr.example.util.TokenHeaderKey
 import com.github.phisgr.gatling.grpc.Predef._
+// This imports necessary implicits such as updateExpr(..)
 import com.github.phisgr.gatling.pb._
 import com.github.phisgr.gatling.util._
 // stringToExpression is hidden because we have $ in GrpcDsl
